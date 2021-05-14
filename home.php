@@ -19,6 +19,7 @@ include 'layout/_header.php';
 
 include 'layout/_top_nav.php';
 ?>
+
 <div class="container">
     <div class="row">
         <div class="col-md-3"></div>

@@ -5,17 +5,15 @@
 body{
 
     padding-top: 3.5em;
-     background-image: url("../assets/bg_image.jpg");
+    /* background-image: url("../assets/bg_image.jpg"); */
+    
 }
 h5{
     font-size: xx-large;
-    font-family: "Cantarell",cursive;
     color: crimson;
 }
-.index-container{
-}
-.loginBtn{
-
+.loginButton{
+    padding: 50px;
 }
 .emphasize{
     font-weight: bold;

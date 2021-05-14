@@ -13,3 +13,4 @@ include 'layout/navbar.php';
 <?php include 'layout/_member_layout.php'; ?>
 
 <?php include 'layout/_footer.php'; ?>
+ 

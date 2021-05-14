@@ -9,7 +9,7 @@ include 'layout/navbar.php';
     <div class="row">
         <div class="col-md-10">
             <a href="#" id="Heading">About Us</a>
-            <p>We are a non-profitable organization which aims to provide a better and easier way to find the required blood needed
+            <p>We are a non-profitable organization which aims to provide a better and easier way to find the required Plasma needed
             at the time. </p>
         </div>
     </div>

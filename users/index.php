@@ -5,33 +5,76 @@ include 'layout/_header.php';
 
 include 'layout/navbar.php';
 ?>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<style>
+    * {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #About {
+        font-size: 17px;
+        font-weight: 550;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: gray;
+    }
+
+    .content-block {
+        margin-left: 200px;
+    }
+
+    .dot {
+        height: 5px;
+        width: 5px;
+        margin-bottom: 2px;
+        background-color: black;
+        border-radius: 50%;
+        display: inline-block;
+    }
+
+    .eligibilty-font {
+        font-weight: 600;
+        font-size: 17px;
+        padding-left: 20px;
+        padding-right: 39px;
+        color: gray;
+    }
+
+    #eligibility-head {
+        font-size: 30px;
+        font-weight: bolder;
+        color: black;
+
+    }
+
+    #line_1 {
+        width: 750px;
+    }
+</style>
 <div class="container">
     <div class="row">
-        <div class="col-md-10">
-            <a href="#" id="Heading">Why Are We Here For?</a>
+        <div class="col-md-8 content-block">
+            <a href="#" id="eligibility-head">Why Are We Here For?</a>
             <p id="About">
-                Blood Bank Management System (BBMS) is a browser based system that is designed to store, process, retrieve and analyze information concerned with the administrative and inventory management within a blood bank. This project aims at maintaining all the information pertaining to blood donors, different blood groups available in each blood bank and help them manage in a better way. Aim is to provide transparency in this field, make the process of obtaining blood from a blood bank hassle free and corruption free and make the system of blood bank management effective.
+                Plasma Management System (PMS) is a browser based system that is designed to store,
+                process, retrieve and analyze information concerned with the administrative and inventory
+                management within a Plasma bank. This project aims at maintaining all the information
+                pertaining to plasma donors, different blood groups available in each plasma bank and help
+                them manage in a better way.
             </p>
             <hr id="line_1">
-            <a href="#" id="Heading2">Features--></a>
-            <p>
-
-                - Blood Donation Camp & Camp Organiser Management.<br>
-- Donor Management - Donor Registration, Managing donor database, recording their physical and medical statistics.<br>
-- Inventory management in blood bank for storage and issuance of blood.<br>
-- Blood requisition and issuance of blood.<br>
-- Online transfer of blood from one blood bank to another.<br>
-- Discarding of expired and unsuitable blood (Less Qty., Reactive, Clotting, Hemolysis).<br>
-- Being a web based system, can be implemented throughout the state. - - Separate user accounts can be created for each blood bank.<br>
-- Patient Register/Blood Sample Receiving Register, Donor Register, Blood Issue Register and Discarded Blood report.<br>
-- Fridge Wise Stock Position and Printing of Fridge Stickers.<br>
-- List of Donors who are eligible for donation on a particular date with contact Number.<br>
-- Camp Wise Donor List and Printing of Donor Cards.<br>
-            </p>
-        </div>
-        <div class="col-md-2">
-            <img src="../assets/donate_blood_right.jpg" class="img img-responsive img-thumbnail" style="width:200px ;">
-             <img src="http://bbmspunjab.gov.in/images/bbmsRht.png" class="img img-responsive img-thumbnail">
+            <a href="#" id="eligibility-head">Eligibility criteria for COVID-19 convalescent plasma donation</a>
+            <ul class="eligibilty-font">
+                <li>Donate only after 14 days of a COVID-19 positive report if he/ she is asymptomatic, or after 14 days of symptom resolution if he/she is symptomatic.</li>
+                <li>A COVID-19 negative report is preferable. If not available, the test may be done but will take additional time.</li>
+                <li>Persons who have received any COVID-19 vaccination will not be able to donate for 28 days from the date of vaccination.</li>
+                <li>Antibody Titres will be measured and there is a possibility that the donor gets rejected if he/she lacks adequate antibodies in the blood.</li>
+                <li>Women who have ever been pregnant can not donate COVID-19 convalescent plasma</li>
+                <li>The above criteria are in addition to the donor eligibility criteria laid down as per the Drugs and Cosmetics Act and Rules ( amended March 2020)</li>
+                <li>All laboratory tests to determine donor eligibility will be done as per rules prior to convalescent plasma collection.</li>
+            </ul>
         </div>
 
 

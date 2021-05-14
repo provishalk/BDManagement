@@ -39,7 +39,7 @@ footer{
 #Heading{
     font-size: 60px;
     color: grey;
-    font-family: comic sans ms;
+    /* font-family: comic sans ms; */
 }
 #Heading:hover{
     color: darkred;

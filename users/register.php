@@ -26,7 +26,13 @@ include 'layout/_header.php';
 
 include 'layout/navbar.php';
 ?>
-
+<style>
+    .form-text{
+        font-size: 16px;
+        font-weight: 600;
+        color: gray;
+    }
+</style>
 <div class="container">
     <div class="col-md-3"></div>
     <div class="col-md-6">
@@ -36,15 +42,15 @@ include 'layout/navbar.php';
         <?php endif; ?>
         <?php if(isset($message)): ?>
         <div class="alert-danger fade-out-5"><?= $message; ?></div>
-        <?php endif; ?>
+        <?php endif;?>
         
         <div class="panel panel-default">
             <div class="panel-heading">
-                <div class="col-md-4">
+                <!-- <div class="col-md-4">
                     <img src="assets/register.jpg" class="img img-responsive">
-                </div>
-                <p>Join our community and reach out your hands for the others in need. Just by registering below you will make an agreement
-                    with us that you are ready to donate and will be available whenever we will need you.</p>               
+                </div> -->
+                <span class="form-text">Join our community and reach out your hands for the others in need. Just by registering below you will make an agreement
+                    with us that you are ready to donate and will be available whenever we will need you.</span>             
             </div>
             <div class="panel-body">
                 <form method="post" action="register.php" class="form-horizontal">
