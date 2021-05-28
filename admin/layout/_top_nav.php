@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="logo-left-15 pull-left">
-                    <div class="h4" id="logo"><a href="index.php">Blood Donation Management</a></div>
+                    <div class="h4" id="logo"><a href="index.php">Plasma Management</a></div>
                 </div>
             </div>
             <div class="col-md-4"></div>

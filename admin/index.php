@@ -8,11 +8,11 @@ if(isset($_POST['loginBtn'])){
     $username = $_POST['username'];
     $password = $_POST['password'];
     
-    if($username == "vs_lala"){
-        if($password == "123"){
+    if($username == "admin"){
+        if($password == "admin"){
             session_start();
             $_SESSION['username'] = $username;
-            header("Location: http://localhost/BDManagement/admin/home.php");
+            header("Location: http://localhost/PlasmaDonation/admin/home.php");
         } else {
             $invalid = "Invalid Password!";
         }

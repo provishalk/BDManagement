@@ -118,4 +118,3 @@ include 'layout/_top_nav.php';
         <div class="col-md-1"></div>
     </div>
 </div>
-<?php include 'layout/_footer.php'; ?>

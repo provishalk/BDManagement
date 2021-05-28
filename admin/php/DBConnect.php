@@ -32,21 +32,21 @@ class DBConnect {
     public function auth(){
         session_start();
         if(! isset($_SESSION['username'])){
-            header("Location: http://localhost/BDManagement/admin");
+            header("Location: http://localhost/PlasmaDonation/admin");
         }
     }
     
     public function checkAuth(){
         session_start();
         if(isset($_SESSION['username'])){
-            header("Location: http://localhost/BDManagement/admin/home.php");
+            header("Location: http://localhost/PlasmaDonation/admin/home.php");
         }
     }
 
     public function logout(){
         session_start();
         session_destroy();
-        header("Location: http://localhost/BDManagement/admin");
+        header("Location: http://localhost/PlasmaDonation/admin");
     }
 
     public function addEmployee($username,$password,$firstName,$middleName,$lastName,$pcrNumber,$designation,$landline,$mobile,$birthDay){

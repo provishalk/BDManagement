@@ -8,7 +8,7 @@
 /**
  * Description of DBConnect
  *
- * @author Vaibhav
+ * @author Vishal
  */
 class DBConnect {
     private $db = NULL;
@@ -32,13 +32,13 @@ class DBConnect {
     public function auth(){
         session_start();
         if(! isset($_SESSION['username'])){
-            header("Location: http://localhost/BDManagement");
+            header("Location: http://localhost/PlasmaDonation");
         }       
     }
     public function authLogin(){
         session_start();
         if(isset($_SESSION['username'])){
-            header("Location: http://localhost/BDManagement/home.php");
+            header("Location: http://localhost/PlasmaDonation/home.php");
         }
     }
     
@@ -105,7 +105,7 @@ class DBConnect {
     public function logout(){
         session_start();
         session_destroy();
-        header("Location: http://localhost/BDManagement/");
+        header("Location: http://localhost/PlasmaDonation/");
     }
     
     public function getDonorProfileById($id){
